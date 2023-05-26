@@ -1,4 +1,5 @@
 # MyTasks
+You can find the webapp live at : https://mytasks.pages.dev/
 
 MyTasks is a simple task app written with SvelteKit, a framework for rapidly developing robust, performant web applications using Svelte.
 
@@ -21,7 +22,6 @@ To run the app locally, you need to have Node.js and npm installed on your machi
 
 ## Deployment
 
-To deploy the app to a production environment, you can use one of the adapters provided by Svelte Kit, such as Versel, Netlify, Cloudflare or Node.js.![App website example](https://github.com/SreejithKSGupta/mytasks/assets/72187226/a333b39f-8383-4707-86de-6963b1a1165f)
+To deploy the app to a production environment, you can use one of the adapters provided by Svelte Kit, such as Versel, Netlify, Cloudflare or Node.js.
 
-
-you can find the webapp live at : https://mytasks.pages.dev/
+![App website example](https://github.com/SreejithKSGupta/mytasks/assets/72187226/a333b39f-8383-4707-86de-6963b1a1165f)
