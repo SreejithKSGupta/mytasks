@@ -21,7 +21,7 @@ To run the app locally, you need to have Node.js and npm installed on your machi
 
 ## Deployment
 
-To deploy the app to a production environment, you can use one of the adapters provided by Svelte Kit, such as Versel, Netlify, Cloudflare or Node.js.
-App example :https://github.com/SreejithKSGupta/mytasks/assets/72187226/d517c6b4-e1ad-45a0-b87f-9514ed68818f
+To deploy the app to a production environment, you can use one of the adapters provided by Svelte Kit, such as Versel, Netlify, Cloudflare or Node.js.![App website example](https://github.com/SreejithKSGupta/mytasks/assets/72187226/a333b39f-8383-4707-86de-6963b1a1165f)
+
 
 you can find the webapp live at : https://mytasks.pages.dev/
