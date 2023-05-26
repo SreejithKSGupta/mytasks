@@ -1,38 +1,27 @@
-# create-svelte
+# MyTasks
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+MyTasks is a simple task app written with SvelteKit, a framework for rapidly developing robust, performant web applications using Svelte.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Create, edit and delete tasks
+- Mark tasks as completed or not
+- Smooth animation
+- Responsive design
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Installation
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+To run the app locally, you need to have Node.js and npm installed on your machine.
 
-## Developing
+1. Clone the GitHub repo: `git clone https://github.com/SreejithKSGupta/mytasks/`
+2. Navigate to the project folder: `cd mytasks`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm run dev`
+5. Open your browser and go to `http://localhost:3000`
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Deployment
 
-```bash
-npm run dev
+To deploy the app to a production environment, you can use one of the adapters provided by Svelte Kit, such as Versel, Netlify, Cloudflare or Node.js.
+App example : (https://github.com/SreejithKSGupta/mytasks/assets/72187226/d517c6b4-e1ad-45a0-b87f-9514ed68818f)
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+you can find the webapp live at : https://mytasks.pages.dev/
