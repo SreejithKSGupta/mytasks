@@ -1,18 +1,17 @@
 <script lang="ts">
 	import { crossfade } from 'svelte/transition';
 	import { flip } from 'svelte/animate';
+
+	import { todostore } from './store/storee';
 	import deleteimg from './res/delicon.png';
-	let uid = 1;
+	
 	let newtask = '';
 	let dur=400;
-	let todos = [
-		{ id: uid++, done: false, description: 'write some docs' },
-		{ id: uid++, done: false, description: 'start writing blog post' },
-		{ id: uid++, done: true, description: 'buy some milk' },
-		{ id: uid++, done: false, description: 'mow the lawn' },
-		{ id: uid++, done: false, description: 'feed the turtle' },
-		{ id: uid++, done: false, description: 'fix some bugs' }
-	];
+	let todos: { id: number; done: boolean; description: string }[] = [];
+	todostore.subscribe(value => {
+		todos = value;
+	});
+
 
 
  
@@ -31,8 +30,10 @@
 		todos = todos.concat(todo);
 	}
 	function additem() {
+		if (newtask === '') return;
+		let uidd= todos.length + 1;
 		const todo = {
-			id: uid++,
+			id: uidd,
 			done: false,
 			description: newtask
 		};
